@@ -1,0 +1,16 @@
+*************
+** COLORS **
+*************
+- main-color: #19c8fa
+- transparent-color: #
+**********
+** Icons**
+**********
+- <i class="fas fa-desktop"></i>
+- <i class="fas fa-cog"></i>
+- <i class="fas fa-pencil-ruler"></i>
+- <i class="fas fa-camera-retro"></i>
+- <i class="far fa-folder-open"></i>
+- <i class="fas fa-coffee"></i>
+- <i class="fas fa-medal"></i>
+- <i class="fas fa-envelope"></i>

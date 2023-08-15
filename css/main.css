@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+canvas {
+  cursor: cell;
+}
+header {
+  background-color: #e91e63;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  position: sticky;
+  top: 0;
+}
+header > div {
+  display: flex;
+  gap: 1px;
+  align-items: center;
+}
+header .tools i {
+  font-size: 20px;
+  padding: 15px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+a {
+  color: #fff;
+}
+header .tools i:hover,
+header .tools .active {
+  background-color: rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0px 0px 12px 0px rgb(0 0 0 / 5%);
+}
+header .setting input {
+  outline: none;
+  background: transparent;
+  border: none;
+  font-size: 20px;
+}
+header .setting input#color {
+  width: 100px;
+}
+header .setting input#size {
+  width: 60px;
+  color: #fff;
+  text-align: center;
+}
